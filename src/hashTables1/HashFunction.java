@@ -63,11 +63,11 @@ public class HashFunction {
 	// but we never plan to have more than 15 values in all.
 	// It wouldn't make sense to make a 1000 item array, so
 	// what can we do?
-
+	
 	// One way to fit these numbers into a 30 item array is
 	// to use the mod function. All you do is take the modulus
 	// of the value versus the array size
-
+	
 	// The goal is to make the array big enough to avoid
 	// collisions, but not so big that we waste memory
 
